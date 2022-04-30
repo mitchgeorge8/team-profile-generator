@@ -2,12 +2,12 @@
 
 ## Table of Contents
 
+  - [Table of Contents](#table-of-contents)
   - [Description](#description)
-    - [User Story](#user-story)
-    - [Acceptance Criteria](#acceptance-criteria)
   - [Installation](#installation)
   - [Usage](#usage)
   - [Credits](#credits)
+  - [Version History](#version-history)
   - [License](#license)
 
 ## Description
@@ -48,23 +48,46 @@ THEN I exit the application, and the HTML is generated
 
 ## Installation
 
-1. Download this repository.
-2. Open a command prompt and cd to the root folder of this repository.
-3. Run the command 'node index'.
-4. Answer the prompts, and a README file will be generated for you!
+1. Download the repository [here](https://github.com/mitchgeorge8/team-profile-generator).
+2. Open a command prompt and cd to the root directory of this repository.
+3. Using [Node.js](https://nodejs.org), run the command 'npm install'.
+   - This will install the necessary Node packages.
+4. To begin, enter 'node index'.
 
 ## Usage
 
-To use this application, simply open the command line and run the code above. Then follow the prompts and a professional README file will be generated for you and placed in the 'dist' folder. This is great for creating quick and easy README files.
+To use this application, simply open the command line and run the code above. Follow all of the prompts and a professional Team Profile HTML page will be generated for you! It will be located in the 'dist' folder.
 
-![Working README generator](../dist/screenshot.png)
+![Working team profile generator](./src/screenshot.png)
 
 ## Credits
 
 1. [Mitchell George](https://github.com/mitchgeorge8)
 
+## Version History
+
+- 1.0 - Initial release
+  - See [commits](https://github.com/mitchgeorge8/team-profile-generator/commits)
+
 ## License
 
 &copy; 2022 [Mitchell George](https://github.com/mitchgeorge8)
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
