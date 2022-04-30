@@ -8,8 +8,11 @@ const generateCard = (employee) => {
           <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
             <div class="card my-3 shadow">
               <div class="card-header bg-primary text-white">
-                <h3 class="card-title">${employee.getName()}</h4>
-                <h4 class="card-title">${employee.getRole()}</h5>
+                <div class="d-flex justify-content-between align-items-center">
+                  <h3 class="card-title">${employee.getName()}</h3>
+                  <i class="fa-solid fa-mug-hot fa-xl"></i>
+                </div>
+                <h4 class="card-title">${employee.getRole()}</h4>
               </div>
               <div class="card-body bg-light">
                 <ul class="list-group">
@@ -27,8 +30,11 @@ const generateCard = (employee) => {
           <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
             <div class="card my-3 shadow">
               <div class="card-header bg-danger text-white">
-                <h3 class="card-title">${employee.getName()}</h4>
-                <h4 class="card-title">${employee.getRole()}</h5>
+                <div class="d-flex justify-content-between align-items-center">
+                  <h3 class="card-title">${employee.getName()}</h3>
+                  <i class="fa-solid fa-laptop-code fa-xl"></i>
+                </div>
+                <h4 class="card-title">${employee.getRole()}</h4>
               </div>
               <div class="card-body bg-light">
                 <ul class="list-group">
@@ -46,8 +52,11 @@ const generateCard = (employee) => {
           <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
             <div class="card my-3 shadow">
               <div class="card-header bg-secondary text-white">
-                <h3 class="card-title">${employee.getName()}</h4>
-                <h4 class="card-title">${employee.getRole()}</h5>
+                <div class="d-flex justify-content-between align-items-center">
+                  <h3 class="card-title">${employee.getName()}</h3>
+                  <i class="fa-solid fa-graduation-cap fa-xl"></i>
+                </div>
+                <h4 class="card-title">${employee.getRole()}</h4>
               </div>
               <div class="card-body bg-light">
                 <ul class="list-group">
@@ -73,16 +82,13 @@ const generatePage = () => {
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Team Profile</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
   </head>
 
   <body class="d-flex flex-column min-vh-100">
     <header>
       <div class="container pt-4">
-        <h1 class="bg-primary text-white text-center py-5 shadow">My Team</h1>
+        <h1 class="bg-primary text-white text-center py-3 shadow rounded">My Team</h1>
       </div>
     </header>
 
@@ -96,6 +102,8 @@ const generatePage = () => {
     <footer class="container text-center mt-auto">
       <h5 class="">&copy; ${new Date().getFullYear()} by Mitchell George</h5>
     </footer>
+
+    <script src="https://kit.fontawesome.com/3190fd9e9f.js" crossorigin="anonymous"></script>
   </body>
 </html>
 `;
